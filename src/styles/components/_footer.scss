@@ -1,0 +1,20 @@
+.footer {
+	position: fixed;
+	width: 100%;
+	height: 7%;
+	bottom: 0;
+	background: $white;
+}
+
+.footer__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: $s-size;
+	text-decoration: none;
+	color: $black;
+}
+
+.footer__name {
+	padding-left: $spacing;
+}

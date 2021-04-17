@@ -1,0 +1,16 @@
+.content__title {
+	padding: $m-size $l-size $s-size;
+	border-bottom: solid 1px $light-green;
+	font-size: $l-size;
+	font-weight: bold;
+}
+
+.content__widget {
+	margin: 4.8rem $l-size;
+}
+
+@media (max-width: $desktop-breakpoint) {
+ .content__widget {
+ 	margin: $l-size;
+ }
+}

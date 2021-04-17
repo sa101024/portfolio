@@ -1,0 +1,52 @@
+.apps {
+	display: flex;
+}
+
+.app {
+	display: flex;
+	margin: 0 $m-size;
+	box-shadow: 1px 1px 5px 3px lighten($black, 50%);
+}
+
+.app__img {
+	width: 100%;
+}
+
+.app__text {
+	color: $black;
+	padding: $m-size;
+}
+
+.app__text--title {
+	text-align: center;
+	font-size: $l-size;
+	font-weight: bold;
+}
+
+.app__text--explan {
+	margin-top: $s-size;
+	padding: $s-size 0;
+	border-top: solid 1px lighten($black, 50%);
+}
+
+.app__text--tool-list {
+}
+
+ul {
+	margin: 0;
+}
+
+li {
+	padding: $spacing 0;
+}
+
+@media (max-width: $desktop-breakpoint) {
+	.apps {
+		flex-direction: column;
+		padding-top: $s-size;
+	}
+
+	.app {
+		margin-bottom: $m-size;
+	}
+}

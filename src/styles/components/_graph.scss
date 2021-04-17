@@ -1,0 +1,35 @@
+.graph {
+	display: flex;
+	justify-content: space-between;
+	padding: $s-size 0;
+}
+
+.graph__module {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.graph__module--bar {
+	position: relative;
+	width: 1.8rem;
+	height: 20rem;
+	border: solid 1px $green;
+	padding: 2px;
+	background: $white;
+}
+
+.graph__module--bar .graph__module--bar-height {
+	position: relative;
+	display: block;
+	background: $light-green;
+}
+	
+.graph__module--title {
+	padding: $s-size 0;
+}
+
+.graph__module--icon {
+	font-size: 3.6rem;
+}
