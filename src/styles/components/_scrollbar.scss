@@ -1,0 +1,11 @@
+::-webkit-scrollbar {
+	width: 12px;
+}
+::-webkit-scrollbar-track {
+	background-color: lighten($black, 70%);
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: lighten($black, 50%);
+	border-radius: 10px;
+}
